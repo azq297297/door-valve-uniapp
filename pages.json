@@ -1,0 +1,172 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path": "pages/tabbar/index/index",
+		"style": {
+			"navigationBarTitleText": "燃气阀门"
+		}
+	},
+		{
+			"path": "pages/tabbar/mode/mode",
+			"style": {
+				"navigationBarTitleText": "情景模式"
+			}
+		},
+		{
+			"path": "pages/tabbar/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+
+	{
+		"path": "pages/mine/about/about",
+		"style": {
+			"navigationBarTitleText": "关于我们"
+		}
+	},{
+		"path": "pages/mine/faq/faq",
+		"style": {
+			"navigationBarTitleText": "常见问题"
+		}
+	},{
+		"path": "pages/mine/faqDetails/faqDetails",
+		"style": {
+			"navigationBarTitleText": "常见问题"
+		}
+	},{
+		"path": "pages/mine/feedbackStatus/feedbackStatus",
+		"style": {
+			"navigationBarTitleText": "问题反馈"
+		}
+	},{
+		"path": "pages/mine/feedback/feedback",
+		"style": {
+			"navigationBarTitleText": "问题反馈"
+		}
+	},{
+		"path": "pages/mine/message/message",
+		"style": {
+			"navigationBarTitleText": "消息通知",
+			"enablePullDownRefresh": true
+		}
+	},{
+		"path": "pages/mine/record/record",
+		"style": {
+			"navigationBarTitleText": "操作记录"
+		}
+	}
+	
+    ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "燃气阀门"
+			}
+        }
+        ,{
+            "path" : "pages/index/add/add",
+            "style" : {
+				"navigationBarTitleText": "燃气阀门"
+			}
+        }
+        ,{
+            "path" : "pages/index/scan/scan",
+            "style" : {
+				"navigationBarTitleText": "选择设备工作WIFI"
+			}
+        }
+ 
+      ,{
+			"path": "pages/index/timing/timing",
+			"style": {
+				"navigationBarTitleText": "设置定时"
+			}
+		}
+	 ,  {
+	 	"path": "pages/index/timingList/timingList",
+	 	"style": {
+	 		"navigationBarTitleText": "定时列表"
+	 	}
+	 }
+        
+        ,{
+            "path" : "pages/index/groupingSort/groupingSort",
+            "style" : {
+				"navigationBarTitleText": "分组移动"
+			}
+        }
+        ,{
+            "path" : "pages/index/groupingRen/groupingRen",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/groupingSelect/groupingSelect",
+            "style" : {
+				"navigationBarTitleText": "选择分组"
+			}
+        }
+        ,{
+            "path" : "pages/index/equipmentDetails/equipmentDetails",
+            "style" : {
+				"navigationBarTitleText": "燃气阀门"
+			}
+        }
+        ,{
+            "path" : "pages/index/sharedList/sharedList",
+            "style" : {
+				"navigationBarTitleText": "共享设备"
+			}
+        }
+        ,{
+            "path" : "pages/index/addShared/addShared",
+            "style" : {
+				"navigationBarTitleText": "共享设备"
+			}
+        }
+        ,{
+            "path" : "pages/index/equipmentSetting/equipmentSetting",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        }
+        ,{
+            "path" : "pages/index/connect/connect",
+            "style" : {
+				"navigationBarTitleText": "尝试与设备建立连接"
+			}
+        }
+        ,{
+            "path" : "pages/index/connectSucceed/connectSucceed",
+            "style" : {
+				"navigationBarTitleText": "连接成功"
+			}
+        }
+        ,{
+            "path" : "pages/index/connectErr/connectErr",
+            "style" : {
+				"navigationBarTitleText": "连接失败"
+			}
+        }
+     
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	},
+"tabBar": {
+	"color": "#C1C0C9",
+	"selectedColor": "#FE8B1E",
+	"list": [{
+			"pagePath": "pages/tabbar/index/index"
+		},
+		{
+			"pagePath": "pages/tabbar/mode/mode"
+		},
+		{
+			"pagePath": "pages/tabbar/mine/mine"
+		}
+	]
+}
+}
